@@ -97,7 +97,8 @@ h3 {
   margin-right:-382px;
 //  position: fixed;
   position: relative;
-  top: 115px;
+ // top: 115px; //original
+    top: 150px;
   background: #ffffff;
   //background: #ffcc00;
   border: 1px solid #ffffff;
@@ -140,14 +141,15 @@ h3 {
   }
 
   .downloads {
-    float: right;
-    margin:0 45px 0 0;
-
+    float: center;
+    margin:0 45px 0 0; //original
+  margin:0 0 0 0;
     span {
-      float:left;
+      float: center;
       line-height:52px;
       font-size:90%;
-      color:#9d7f0d;
+     // color:#9d7f0d; //original
+      color:#ff0000;
       text-transform:uppercase;
       text-shadow:rgba(#fff, 0.2) 0 1px 0;
     }
