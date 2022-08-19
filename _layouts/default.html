@@ -1,6 +1,7 @@
 <!doctype html>
 <html lang="{{ site.lang | default: "en-US" }}">
   <head>
+	 
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
 
@@ -14,6 +15,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
 
     {% include head-custom.html %}
+	   <style>
+ p.c {
+  white-space: pre;
+}
+</style>		  
   </head>
   <body>
 
@@ -27,12 +33,18 @@
           
       </header>
 
+	 
+	  
     {% if site.show_downloads %}
     	<div id="banner">
    		 <!--    <span id="logo"></span> -->
 		     <div class="downloads">
-			     <span>Lava&nbsp;Lake&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;KamalaFox&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Glacier&nbsp;&nbsp;Lake </span>
-			  <!--	   <span style="padding-left:20px"> Lava Lake                  KamalaFox                   Glacier Lake</span> -->   
+			     
+		  <p class="c">
+		  Lava Lake                  KamalaFox                   Glacier Lake
+		  </p>
+ <!--	  <span>Lava&nbsp;Lake&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;KamalaFox&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Glacier&nbsp;&nbsp;Lake </span> --> 
+			 <!--	   <span style="padding-left:20px"> Lava Lake                  KamalaFox                   Glacier Lake</span> -->   
            	<!--	 <span>^^^^^^^^^^Lava Lake --------------- KamalaFox ------------- Glacier Lake  ^^^^^^^^^^</span>   -->       
           </div>  
 		{% endif %}
