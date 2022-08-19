@@ -146,8 +146,10 @@ h3 {
     margin-left:-325px;
  
     span {
-     float: left;
+    // float: left;
      // line-height:52px; //line-height:52px;
+      left:50%;
+    margin-left:-325px;
       font-size:100%;
       font-weight: bold;  //added
      // color:#9d7f0d; //original
