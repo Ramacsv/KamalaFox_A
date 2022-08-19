@@ -92,13 +92,13 @@ h3 {
 #banner {
   z-index: 100;
   left:0;
-  right:50%;
+  //right:50%;
   height: 50px;
-  margin-right:-382px;
-position: fixed;
+  margin-right: 1px; //margin-right:-382px;
+  position: fixed;
   //position: relative;
- // top: 115px; //original
-    top: 150px;
+  // top: 115px; //original
+  top: 150px;
   background: #ffffff;
   //background: #ffcc00;
   border: 1px solid #ffffff;
@@ -148,10 +148,11 @@ position: fixed;
       float: center;
       line-height:52px;
       font-size:90%;
+      font-weight: bold;  //added
      // color:#9d7f0d; //original
       color:#ff0000;
       text-transform:uppercase;
-      text-shadow:rgba(#fff, 0.2) 0 1px 0;
+      text-shadow:rgba(#fff, 0.2) 0 3px 0;  //text-shadow:rgba(#fff, 0.2) 0 1px 0;
     }
   }
 
