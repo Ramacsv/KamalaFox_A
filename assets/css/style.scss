@@ -143,6 +143,8 @@ h3 {
   .downloads {
   // float: center; // float: center;
    //margin:0 45px 0 0; //original
+     position:fixed;
+    left:50%;
     margin-left:-325px;
  
     span {
