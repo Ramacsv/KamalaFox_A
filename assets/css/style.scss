@@ -129,7 +129,7 @@ h3 {
     }
   }
 
-  .fork {
+   .fork {
     position:fixed;
     left:50%;
     margin-left:-325px;
@@ -139,7 +139,41 @@ h3 {
     font-size:14px;
     background-color: #FFE788;
   }
+  
+  
+  .forkA {
+    position:fixed;
+    left:20%;
+    margin-left:-325px;
+    padding: 10px 12px;
+    margin-top: 6px;
+    line-height:14px;
+    font-size:14px;
+    background-color: #7a2717;
+  }
 
+   .forkB {
+    position:fixed;
+    left:50%;
+    margin-left:-325px;
+    padding: 10px 12px;
+    margin-top: 6px;
+    line-height:14px;
+    font-size:14px;
+    background-color: #7a2717;
+  }
+  
+  
+   .forkC {
+    position:fixed;
+    left:75%;
+    margin-left:-325px;
+    padding: 10px 12px;
+    margin-top: 6px;
+    line-height:14px;
+    font-size:14px;
+    background-color: #7a2717;
+  }
   .downloads {
   // float: center; // float: center;
    //margin:0 45px 0 0; //original
