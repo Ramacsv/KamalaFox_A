@@ -68,13 +68,14 @@ header {
 //  }
   p {
     color: #22b021;
+    text-align: center;
     text-shadow:rgba(#000, 0.2) 0 1px 0;
     font-size: 22px;
     font-weight: bold; // new added by me
     top: 5px;
    // bottom: 5px;
-    border: 1px solid #080dd8;
-    margin: 0px;
+   // border: 1px solid #080dd8;
+    margin: 35px;
     width: auto;
   }  
 }
