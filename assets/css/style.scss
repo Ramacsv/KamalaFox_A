@@ -118,7 +118,8 @@ h3 {
     margin-top: 6px;
     line-height:14px;
     font-size:14px;
-    color:#333;
+    color: #ff0000;
+  //  color:#333; //original
     font-weight: bold;
     display:inline-block;
     text-align:center;
@@ -147,7 +148,7 @@ h3 {
     margin-left:-325px;
     padding: 10px 12px;
     margin-top: 6px;
-    line-height:34px;
+    line-height:14px;
     font-size:24px;
     color: #ff0000;
   //  background-color: #7a2717;
@@ -168,13 +169,14 @@ h3 {
   
    .forkC {
     position:fixed;
-    left:95%;
+    left:110%;
     margin-left:-325px;
     padding: 10px 12px;
     margin-top: 6px;
     line-height:14px;
-    font-size:24px;
      color: #ff0000;
+    font-size:24px;
+     
    // background-color: #7a2717;
   }
   .downloads {
