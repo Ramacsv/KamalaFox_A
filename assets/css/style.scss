@@ -75,8 +75,9 @@ header {
     top: 5px;
    // bottom: 5px;
     border: 1px solid #080dd8;
+    box-sizing: border-box;
     margin: 35px;
-    width: auto;
+  //  width: auto;
   }  
 }
 
