@@ -51,7 +51,7 @@ header {
     -o-text-overflow: ellipsis;
     -ms-text-overflow: ellipsis;
   }
-
+/*
 //  p {
    //  color: #d8d8d8;
 //    color: #22b021;
@@ -66,6 +66,7 @@ header {
 //    bottom: 5px;
 //    border: 3px solid #8AC007;    
 //  }
+  */
   p {
     color: #22b021;
     text-align: center;
@@ -76,8 +77,8 @@ header {
     position: relative;
     display: block; 
    
-    margin: 0px 400px 0px 400px;
-    border: 3px solid #f832e0; 
+    margin: 0px 500px 0px 500px;
+    border: 5px double #4329f7; 
   }  
 }
 
