@@ -45,6 +45,19 @@ header {
     -o-text-overflow: ellipsis;
     -ms-text-overflow: ellipsis;
   }
+  
+  pA {
+    position:fixed;
+    left:35%;
+    margin-left:-325px;
+    padding: 10px 12px;
+    margin-top: 6px;
+    line-height:14px;
+    font-size:24px;
+    color: #4cddc4;
+  //  background-color: #7a2717;
+  }
+  
 /*
   p {
     color: #009e22; // green
